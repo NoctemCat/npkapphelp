@@ -1,13 +1,10 @@
 package com.example.npkapp.detail;
 
 import android.util.Log;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 
 import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.FieldPath;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -23,24 +20,42 @@ import java.util.Map;
 public class FirebaseConnection {
     private static FirebaseConnection instance;
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
-    private ArrayList<Detail> arrayVallues = new ArrayList<>();
+
+    private Map<String, Detail> alphValues = new HashMap<>();
+    private Map<String, Detail> numValues = new HashMap<>();
 
     private FirebaseConnection(){
-        db.collection("alphabet")
-                .orderBy(FieldPath.documentId(), Query.Direction.ASCENDING)
-                .get()
-                .addOnSuccessListener(documentSnapshots -> {
-                    if (documentSnapshots.isEmpty()) {
-                        Log.d("npkapp", "onSuccess: LIST EMPTY");
-                        return;
-                    } else {
-                        List<Detail> types = documentSnapshots.toObjects(Detail.class);
-                        arrayVallues.addAll(types);
-                        Log.d("npkapp", "onSuccess: " + arrayVallues);
-                    }
-                })
-               .addOnFailureListener(e -> Log.d("npkapp", "onFailure: error getting data"));
+    }
 
+    public void initAlphabetValues() {
+        db.collection("alphabet")
+                .get()
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful()) {
+                        for (QueryDocumentSnapshot document : task.getResult()) {
+                            alphValues.put(document.getId(), document.toObject(Detail.class));
+                            Log.d("npkapp", document.getId() + " => " + document.getData());
+                        }
+                    } else {
+                        Log.d("npkapp", "Error getting documents: ", task.getException());
+                    }
+                });
+        Log.d("npkappp", db.toString());
+    }
+
+    public void initNumberValues(){
+        db.collection("numbers")
+                .get()
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful()) {
+                        for (QueryDocumentSnapshot document : task.getResult()) {
+                            numValues.put(document.getId(), document.toObject(Detail.class));
+                            Log.d("npkapp", document.getId() + " => " + document.getData());
+                        }
+                    } else {
+                        Log.d("npkapp", "Error getting documents: ", task.getException());
+                    }
+                });
         Log.d("npkappp", db.toString());
     }
 
@@ -51,9 +66,16 @@ public class FirebaseConnection {
         return instance;
     }
 
-    public Detail getByIndex(int index){
-        if(index >= 0 && arrayVallues.size() > (index)){
-            return arrayVallues.get(index);
+    public Detail alphGetByIndex(int index){
+        if(alphValues.containsKey(Integer.toString(index))){
+            return alphValues.get(Integer.toString(index));
+        }
+        return null;
+    }
+
+    public Detail numGetByIndex(int index){
+        if(numValues.containsKey(Integer.toString(index))){
+            return numValues.get(Integer.toString(index));
         }
         return null;
     }

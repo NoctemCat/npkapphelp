@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.widget.Button;
 
 import com.example.npkapp.detail.DetailActivity;
+import com.example.npkapp.detail.FirebaseConnection;
 
 public class NumsActivity extends AppCompatActivity {
 
@@ -17,11 +18,12 @@ public class NumsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nums);
 
-        for (int i = 0; i < 33; i++){
-            int btnId = getResId("num"+ i +"_btn", R.id.class);
+        FirebaseConnection.getInstance().initNumberValues();
+        for (int i = 0; i < 21; i++){
+            int btnId = getResId("btnNum"+ i, R.id.class);
 
             if(btnId == -1){
-                continue;
+                break;
             }
             Button btnTemp = findViewById(btnId);
             int btnIndex = i;

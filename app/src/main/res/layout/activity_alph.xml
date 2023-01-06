@@ -147,6 +147,7 @@
             android:textSize="24sp"
             android:textStyle="bold" />
         <Button
+            android:id="@+id/btnAlph12"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -157,6 +158,7 @@
             android:textStyle="bold"/>
 
         <Button
+            android:id="@+id/btnAlph13"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -166,6 +168,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnAlph14"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -175,6 +178,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnAlph15"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -184,6 +188,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnAlph16"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -193,15 +198,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_margin="5sp"
-            android:height="50sp"
-            android:width="50sp"
-            android:text="Аа"
-            android:textSize="24sp"
-            android:textStyle="bold"/>
-        <Button
+            android:id="@+id/btnAlph17"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -212,6 +209,7 @@
             android:textStyle="bold"/>
 
         <Button
+            android:id="@+id/btnAlph18"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -221,6 +219,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnAlph19"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -230,6 +229,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnAlph20"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -239,6 +239,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnAlph21"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -248,6 +249,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnAlph22"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -258,6 +260,7 @@
             android:textStyle="bold"/>
 
         <Button
+            android:id="@+id/btnAlph23"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -268,6 +271,7 @@
             android:textStyle="bold"/>
 
         <Button
+            android:id="@+id/btnAlph24"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -278,6 +282,7 @@
             android:textStyle="bold"/>
 
         <Button
+            android:id="@+id/btnAlph25"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -288,6 +293,7 @@
             android:textStyle="bold"/>
 
         <Button
+            android:id="@+id/btnAlph26"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -298,6 +304,7 @@
             android:textStyle="bold"/>
 
         <Button
+            android:id="@+id/btnAlph27"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -308,16 +315,18 @@
             android:textStyle="bold"/>
 
         <Button
-        android:layout_columnWeight="1"
-        android:layout_rowWeight="1"
-        android:layout_margin="5sp"
-        android:height="50sp"
-        android:width="50sp"
-        android:text="Хх"
-        android:textSize="24sp"
-        android:textStyle="bold"/>
+            android:id="@+id/btnAlph28"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="5sp"
+            android:height="50sp"
+            android:width="50sp"
+            android:text="Хх"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
 
         <Button
+            android:id="@+id/btnAlph29"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -327,6 +336,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnAlph30"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -336,15 +346,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            android:layout_margin="5sp"
-            android:height="50sp"
-            android:width="50sp"
-            android:text="Аа"
-            android:textSize="24sp"
-            android:textStyle="bold"/>
-        <Button
+            android:id="@+id/btnAlph31"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -354,6 +356,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnAlph32"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -363,6 +366,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnAlph33"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -373,6 +377,7 @@
             android:textStyle="bold"/>
 
         <Button
+            android:id="@+id/btnAlph34"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -382,6 +387,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnAlph35"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -391,6 +397,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnAlph36"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -400,6 +407,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnAlph37"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"

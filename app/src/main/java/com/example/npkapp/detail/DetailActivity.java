@@ -48,10 +48,10 @@ public class DetailActivity extends AppCompatActivity {
 
     public int getItemTypeCount(){
         if(Objects.equals(detailType, "alph")){
-            return 33;
+            return 38;
         }
         if(Objects.equals(detailType, "num")){
-            return 10;
+            return 21;
         }
         return 0;
     }

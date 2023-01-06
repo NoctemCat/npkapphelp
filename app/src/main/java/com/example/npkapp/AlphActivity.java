@@ -22,12 +22,12 @@ public class AlphActivity extends AppCompatActivity {
         setContentView(R.layout.activity_alph);
 
         // init connection
-        FirebaseConnection.getInstance();
-        for (int i = 0; i < 33; i++){
+        FirebaseConnection.getInstance().initAlphabetValues();
+        for (int i = 0; i < 38; i++){
             int btnId = getResId("btnAlph"+ i, R.id.class);
 
             if(btnId == -1){
-                continue;
+                break;
             }
             Button btnTemp = findViewById(btnId);
             int btnIndex = i;

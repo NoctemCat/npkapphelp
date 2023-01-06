@@ -16,7 +16,7 @@
         android:rowCount="7">
 
         <Button
-            android:id="@+id/num0_btn"
+            android:id="@+id/btnNum0"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="5sp"
@@ -27,7 +27,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/num1_btn"
+            android:id="@+id/btnNum1"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="5sp"
@@ -38,7 +38,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/num2_btn"
+            android:id="@+id/btnNum2"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="5sp"
@@ -48,6 +48,7 @@
             android:textSize="24sp"
             android:textStyle="bold" />
         <Button
+            android:id="@+id/btnNum3"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -57,6 +58,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnNum4"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -66,6 +68,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnNum5"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -75,6 +78,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnNum6"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -85,6 +89,7 @@
             android:textStyle="bold"/>
 
         <Button
+            android:id="@+id/btnNum7"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -94,6 +99,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnNum8"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -103,6 +109,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnNum9"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -112,6 +119,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnNum10"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -121,6 +129,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnNum11"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -130,6 +139,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnNum12"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -140,6 +150,7 @@
             android:textStyle="bold"/>
 
         <Button
+            android:id="@+id/btnNum13"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -149,6 +160,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnNum14"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -158,6 +170,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnNum15"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -167,6 +180,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnNum16"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -176,6 +190,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnNum17"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -185,6 +200,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnNum18"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -195,6 +211,7 @@
             android:textStyle="bold"/>
 
         <Button
+            android:id="@+id/btnNum19"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
@@ -204,6 +221,7 @@
             android:textSize="24sp"
             android:textStyle="bold"/>
         <Button
+            android:id="@+id/btnNum20"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
             android:layout_margin="5sp"
